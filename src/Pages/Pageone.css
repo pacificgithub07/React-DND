@@ -1,0 +1,55 @@
+css
+
+.home__section {
+  text-align: center;
+}
+
+.home__section div img {
+ height: 400px;
+ width: 400px;
+  margin: 60px auto;
+}
+
+.home__section__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.home__section__para {
+  margin-bottom: 20px;
+}
+
+/* home section (ENDS) */
+/* media Query */
+@media (max-width: 769px) {
+  .home__section div img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 426px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar__logo {
+    margin-bottom: 30px;
+  }
+
+  .home__section div img {
+    width: 300px;
+  }
+
+  .home__section__title {
+    font-size: 20px;
+  }
+
+  .home__section__para {
+    font-size: 13px;
+  }
+
+  .dropDiv {
+    width: 200px;
+  }
+}
